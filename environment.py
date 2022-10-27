@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
 
+
 def before_all(context):
     options = Options()
     options.headless = True
