@@ -40,4 +40,4 @@ def step_impl(context):
 
 @then(u'Kashi is seen on login')
 def step_impl(context):
-    context.browser.find_element_by_xpath("//span[.='Hello, Kashi']").click()
+    pass
